@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box
+        {
+            width: 500px;
+            min-height: 300px;
+            border: 1px solid #000;
+            margin: auto;
+        }
+        .box p{
+            text-align: justify;
+            padding: 10px;
+        }
+        .box p::first-letter{
+            font-size: 32px;
+            font-weight: bold;
+            color: red;
+        }
+        mark{
+            background-color: lightgreen;
+        }
+        ins{
+            color: red;
+        }
+        hr{
+            width: 100%;
+           height: 10px;
+           background-color: green;
+        }
+        .photo img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>
+            Lorem ipsum,<mark>dolor sit amet consectetur adipisicing elit.</mark>  Suscipit odio, nesciunt pariatur ullam beatae voluptates maxime molestias hic saepe debitis corporis ipsum commodi aperiam! Assumenda, ut quaerat. Hic eaque totam unde quae, cupiditate eligendi odio officia iure quas! Natus, explicabo numquam tempore nulla praesentium aspernatur soluta perspiciatis itaque fugiat facilis, a et, dignissimos sapiente! Exercitationem rem ipsam ratione non delectus numquam adipisci voluptatibus magni, expedita officia amet quia quaerat, incidunt, quis reprehenderit consequatur nisi quibusdam reiciendis voluptates explicabo sed. Quam, adipisci? Numquam temporibus, veniam odit adipisci illo sed eligendi, incidunt recusandae,<del>deleniti ex voluptates perferendis debitis molestiae facere dicta reprehenderit.</del> <ins>expedita officia amet quia quaerat</ins>
+        </p>
+        <!-- <hr /> -->
+        <div class="photo">
+           <a href="https://www.royalenfield.com/in/en/home/" target="_blank">
+            <img src="imgs/bullet2.jpg">
+        </a>
+        </div>
+        <div class="link">
+            <a href="pdf/HTML Notes.pdf">Download this book</a>
+        </div>
+        <p>
+            Lorem ipsum,<abbr title="This is one of the currency in world.">dolor</abbr> sit amet consectetur adipisicing elit. Suscipit odio, nesciunt pariatur ullam beatae voluptates maxime molestias hic saepe debitis corporis ipsum commodi aperiam! Assumenda, ut quaerat. Hic eaque totam unde quae, cupiditate eligendi odio officia iure quas! Natus, explicabo numquam tempore nulla praesentium aspernatur soluta perspiciatis itaque fugiat facilis, a et, dignissimos sapiente! Exercitationem rem ipsam ratione non delectus numquam adipisci voluptatibus magni, expedita officia amet quia quaerat, incidunt, quis reprehenderit consequatur nisi quibusdam reiciendis voluptates explicabo sed.<br /> Quam, adipisci? Numquam temporibus, veniam odit adipisci illo sed eligendi, incidunt recusandae, deleniti ex voluptates perferendis debitis molestiae facere dicta reprehenderit.
+        </p>
+        <div class="photo">
+            <img src="imgs/bullet2.jpg">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(imgs/bullet2.jpg);
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box
+        {
+            width: 400px;
+            aspect-ratio: 3 / 2;
+            /* border: 1px solid white; */
+            background-color: rgba(255, 255, 255, 0.1),transparent;
+            backdrop-filter: blur(10px);
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .box h1{
+            color: white;
+            font-size: 2.1em;
+            text-transform: uppercase;
+        }
+        .box h1:hover{
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hi welcome to css</h1>
+    </div>
+</body>
+</html>
