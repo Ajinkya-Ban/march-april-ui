@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box
+        {
+            width: 700px;
+            min-height: 200px;
+            margin: auto;
+            border: 1px solid #000;
+        }
+        table,th,tr,td
+        {
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+        }
+        table
+        {
+            width: 600px;
+            margin-top: 25px;
+        }
+        td{
+            text-align: center;
+            padding: 7px;
+        }
+        th
+        {
+            padding: 7px;
+            background-color: black;
+            color: white;
+        }
+        .update
+        {
+            width: 100px;
+            height: 40px;
+            background-color: royalblue;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .del
+        {
+            width: 100px;
+            height: 40px;
+            background-color: red;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        tr:hover
+        {
+            background-color: lightsteelblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center>
+        <table>
+            <tr>
+                <th>S_ID</th>
+                <th>Student Name</th>
+                <th>S_Age</th>
+                <th>S_City</th>
+                <th>Profile Photo</th>
+                <th>Actions</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Sunil Kumar</td>
+                <td>15</td>
+                <td>Pune</td>
+                <td>
+                    <img src="imgs/user.png" width="80px" height="80px">
+                </td>
+                <td>
+                    <a href="#" class="update">Update</a>&nbsp;&nbsp;<a href="#" class="del">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Anil Kumar</td>
+                <td>25</td>
+                <td>Nashik</td>
+                <td>
+                    <img src="imgs/user.png" width="80px" height="80px">
+                </td>
+                <td>
+                    <a href="#" class="update">Update</a>&nbsp;&nbsp;<a href="#" class="del">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Ramesh Pawar</td>
+                <td>18</td>
+                <td>Mumbai</td>
+                <td>
+                    <img src="imgs/user.png" width="80px" height="80px">
+                </td>
+                <td>
+                    <a href="#" class="update">Update</a>&nbsp;&nbsp;<a href="#" class="del">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Rahul More</td>
+                <td>20</td>
+                <td>Pune</td>
+                <td>
+                    <img src="imgs/user.png" width="80px" height="80px">
+                </td>
+                <td>
+                    <a href="#" class="update">Update</a>&nbsp;&nbsp;<a href="#" class="del">Delete</a>
+                </td>
+            </tr>
+        </table>
+    </center>
+    </div>
+
+
+</body>
+</html>
